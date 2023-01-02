@@ -1,13 +1,16 @@
 import logo from './logo.svg'
 import './App.css'
-import { UseStateComponent } from './UseState/UseStateComponent'
+
+import EventComponent from './Event/EventComponent'
+import FirstCounterComponent from './Counter/FirstCounterComponent'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <UseStateComponent />
+        <EventComponent />
+        <FirstCounterComponent />
       </header>
     </div>
   )
